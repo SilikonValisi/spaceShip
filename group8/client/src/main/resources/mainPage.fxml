@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane
+        maxHeight="-Infinity"
+        maxWidth="-Infinity"
+        minHeight="-Infinity"
+        minWidth="-Infinity"
+        prefHeight="720.0"
+        prefWidth="1200.0"
+        style="-fx-background-image: url('/images/mainMenuBackground.jpg');"
+        xmlns="http://javafx.com/javafx/10.0.2-internal"
+        xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="com.game8.client.controller.MainMenuController">
+   <AnchorPane layoutX="854.0" layoutY="438.0" prefHeight="298.0" prefWidth="327.0">
+      <Label layoutX="84.0" layoutY="14.0" prefHeight="26.0" prefWidth="160.0" text="Welcome Commander!"
+             textFill="WHITE"/>
+      <Button fx:id="newGameButton" layoutY="55.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" onAction="#handleNewGameButtonPressed" text="New Game"/>
+      <Button fx:id="highScoresButton" layoutY="95.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" onAction="#handleHighScoresButtonPressed" text="High Scores"
+              textAlignment="CENTER"/>
+      <Button fx:id="creditsButton" layoutY="135.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" onAction="#handleCreditsButtonPressed" text="Credits"/>
+      <Button fx:id="exitButton" layoutY="175.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" onAction="#handleExitButtonPressed" text="Exit Game"/>
+   </AnchorPane>
+   <ImageView fitHeight="150.0" fitWidth="848.0" layoutX="269.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@/images/star_wars1.png" />
+   </ImageView>
+</AnchorPane>

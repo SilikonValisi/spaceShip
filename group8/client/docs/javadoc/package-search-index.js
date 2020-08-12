@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.game8.client"},{"l":"com.game8.client.controller"},{"l":"com.game8.client.model"},{"l":"com.game8.client.view"}]

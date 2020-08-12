@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:controller="com.game8.client.controller.GameWon" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="175.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations You won the game" />
+<!--      <Text layoutX="175.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your score is: " />-->
+      <Button layoutX="236.0" layoutY="252.0" mnemonicParsing="false" text="Save and Exist" />
+   </children>
+</Pane>
